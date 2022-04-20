@@ -1,13 +1,18 @@
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: Gotham Rounded, sans-serif;
+  font-family: Digitalfont;
   font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Digitalfont';
+  src: url('css/Digital7-1e1Z.ttf');
 }
 
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to right, #00AAFF, #00FF6C);
+  background: linear-gradient(to right, #E4E2E9, #0D101C);
 }
 
 .calculator-grid {
